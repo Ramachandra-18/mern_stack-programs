@@ -29,7 +29,7 @@
 
 ## Week 01 — HTML Basics
 
-**Files:** [week01/](https://github.com/karthik-ryali/mern-stack/tree/main/week01)
+**Files:** [week01/](https://github.com/Ramachandra-18/mern_stack-programs/tree/main/week01)
 **Run:** Open `.html` directly in browser.
 
 ---
@@ -145,7 +145,7 @@ Three types of lists. They can be nested inside each other.
 
 ## Week 02 — HTML5 & CSS Fundamentals
 
-**Files:** [week02/](https://github.com/karthik-ryali/mern-stack/tree/main/week02)
+**Files:** [week02/](https://https://github.com/Ramachandra-18/mern_stack-programs/tree/main/week02)
 **Run:** Open `.html` directly in browser.
 
 ---
@@ -242,7 +242,7 @@ Every element is a box. From inside out: **content → padding → border → ma
 
 ## Week 03 — CSS Selectors & JavaScript Intro
 
-**Files:** [week03/](https://github.com/karthik-ryali/mern-stack/tree/main/week03)
+**Files:** [week03/](https://github.com/Ramachandra-18/mern_stack-programs/tree/main/week03)
 **Run:** Open `.html` in browser. `task3.html` loads `task3.js` externally.
 
 ---
@@ -325,7 +325,7 @@ function greet() {
 
 ## Week 04 — JavaScript Objects, Conditionals, Loops
 
-**Files:** [week04/](https://github.com/karthik-ryali/mern-stack/tree/main/week04)
+**Files:** [week04/](https://https://github.com/Ramachandra-18/mern_stack-programs/tree/main/week04)
 **Run:** Open `.html` in browser.
 
 ---
@@ -408,7 +408,7 @@ function greet() {
 
 ## Week 05 — JavaScript Functions & Node.js
 
-**Files:** [week05/](https://github.com/karthik-ryali/mern-stack/tree/main/week05)
+**Files:** [week05/](https://github.com/Ramachandra-18/mern_stack-programs/tree/main/week05)
 **Run:** `task1.html` → browser. Others → `node filename.js`
 
 ---
@@ -506,7 +506,7 @@ fs.readFile("src.txt", "utf8", (err, data) => {
 
 ## Week 06 — TypeScript
 
-**Files:** [week06/](https://github.com/karthik-ryali/mern-stack/tree/main/week06)
+**Files:** [week06/](https://github.com/Ramachandra-18/mern_stack-programs/tree/main/week06)
 **Run:** `npx tsc filename.ts` → `node filename.js`
 
 TypeScript = JavaScript + type annotations. Catches type errors before runtime. Compiles to plain JS.
@@ -560,7 +560,7 @@ printMessage("TypeScript!")
 
 ## Week 07 — Express.js Routing & Templating
 
-**Files:** [week07/](https://github.com/karthik-ryali/mern-stack/tree/main/week07)
+**Files:** [week07/](https://github.com/Ramachandra-18/mern_stack-programs/tree/main/week07)
 **Run:** `node filename.js` → `http://localhost:3000`
 
 Express is a Node.js web framework. Simplifies routing and middleware compared to raw `http` module.
@@ -646,7 +646,7 @@ const app = express()
 app.set("view engine", "ejs")   // tell express to use EJS
 
 app.get("/", (req, res) => {
-  res.render("index", { name: "Karthik", college: "Aditya University" })
+  res.render("index", { name: "Ramachandra", college: "Aditya University" })
 })
 
 app.listen(3000, () => {
@@ -669,7 +669,7 @@ app.listen(3000, () => {
 
 ## Week 08 — Express.js Auth & MongoDB
 
-**Files:** [week08/](https://github.com/karthik-ryali/mern-stack/tree/main/week08)
+**Files:** [week08/](https://github.com/Ramachandra-18/mern_stack-programs/tree/main/week08)
 **Run:** MongoDB running → `node filename.js` → test with Thunder Client / Postman
 
 ---
@@ -802,7 +802,7 @@ app.listen(3000, () => {
 
 ## Week 09 — Express.js Forms & Sessions
 
-**Files:** [week09/](https://github.com/karthik-ryali/mern-stack/tree/main/week09)
+**Files:** [week09/](https://github.com/Ramachandra-18/mern_stack-programs/tree/main/week09)
 **Run:** `node filename.js` → `http://localhost:3000`
 
 ---
@@ -879,7 +879,7 @@ Same concept as Week 08 task1. See [Week 08 Sessions](#sessions--task1js).
 
 ## Week 10 — React Basics
 
-**Files:** [week10/](https://github.com/karthik-ryali/mern-stack/tree/main/week10)
+**Files:** [week10/](https://github.com/Ramachandra-18/mern_stack-programs/tree/main/week10)
 **Run:** `cd week10` → `npm run dev` → `http://localhost:5173`
 **Edit:** Paste code into `src/App.jsx`, save, browser auto-updates.
 
@@ -956,7 +956,7 @@ export default App
 
 ## Week 11 — React Lists, Conditions & Routing
 
-**Files:** [week11/](https://github.com/karthik-ryali/mern-stack/tree/main/week11)
+**Files:** [week11/](https://github.com/Ramachandra-18/mern_stack-programs/tree/main/week11)
 **Run:** `cd week11` → `npm run dev` → `http://localhost:5173`
 
 ---
@@ -1044,7 +1044,7 @@ export default App
 
 ## Week 12 — React Hooks & Components
 
-**Files:** [week12/](https://github.com/karthik-ryali/mern-stack/tree/main/week12)
+**Files:** [week12/](https://github.com/Ramachandra-18/mern_stack-programs/tree/main/week12)
 **Run:** `cd week12` → `npm run dev` → `http://localhost:5173`
 
 ---
@@ -1200,7 +1200,7 @@ Only this one line changes in your code:
 mongoose.connect("mongodb://localhost:27017/studentdb")
 
 // atlas
-mongoose.connect("mongodb+srv://karthik:yourpass@cluster0.xxxxx.mongodb.net/studentdb")
+mongoose.connect("mongodb+srv://ramchandra:yourpass@cluster0.xxxxx.mongodb.net/studentdb")
 ```
 
 Everything else in the code stays exactly the same.
